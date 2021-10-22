@@ -2,7 +2,7 @@ Certeza
 1-HTML5
 2-CSS
 3-JavaScript
-4-
+4-MySQL
 
 Em pericia.
 4-Docker
