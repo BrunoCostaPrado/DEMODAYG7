@@ -1,0 +1,20 @@
+{"intents":[
+    {
+"tag": "Saudação",
+"patterns":["ola","oi","boa tarde","bom dia","boa noite"],
+"responses":["Ola!","Oi!","Boa tarde!","Bom dia!","Boa noite!"]
+    },
+    {"tag": "Adeus",
+    "patterns":["Adeus","Ate mais","Te vejo em breve",]},
+
+    {"tag": "Adeus",
+    "patterns":[]},
+
+    {"tag": "Adeus",
+    "patterns":[]},
+
+    {"tag": "Adeus",
+    "patterns":[]},
+
+
+]}
