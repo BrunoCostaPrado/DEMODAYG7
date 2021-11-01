@@ -1,0 +1,4 @@
+dependencias usadas:
+
+nltk
+tensorflow
