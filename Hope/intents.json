@@ -42,8 +42,8 @@
 
     {
       "tag": "Codigo",
-      "patterns": ["Quem te programou?", "Quem te criou?", "Que é seu pai?"],
-      "responses": ["Adeus", "Tchau"]
+      "patterns": ["Poderia me fornecer seu codigo?", "Onde fica armazenado seu codigo?", "Onde fica seu codigo?"],
+      "responses": ["Meu codigo pode ser encrontado aqui: https://github.com/BrunoCostaPrado/Hope"]
     }
   ]
 }
