@@ -1,4 +1,4 @@
 dependencias usadas:
 
-nltk
-tensorflow
+pip install nltk
+pip install tensorflow

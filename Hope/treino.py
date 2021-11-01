@@ -14,17 +14,17 @@ lemmatizer = WordNetLemmatizer
 
 intents = json.loads(open('intents.json').read())
 
-words = [""]
-classes = [""]
-documents = [""]
-ignore_letters = ["?", "!", ".", ",", ";", "'"]
+words = []
+classes = []
+documents = []
+ignore_letters = ['?', '!', '.', ',', ';']
 
-for intents in intents['intents']:
-    for pattern in intents['pattern']:
+for intent in intents['intents']:
+    for pattern in intent['pattern']:
         word_list = nltk.word_tokenize(pattern)
         words.append(word_list)
-        documents.append((word_list , intents['tag']))
+        documents.append((word_list, intent['tag']))
         if intents['tag'] not in classes:
-            classes.append(intents['tag'])
+            classes.append(intent['tag'])
 
             print(documents)
