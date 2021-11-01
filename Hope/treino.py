@@ -11,12 +11,20 @@ from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 
 lemmatizer = WordNetLemmatizer
-intents = json.load(open('intents.json').read())
-words = ["o"]
-clases = ["o"]
-documents = ["o"]
+
+intents = json.loads(open('intents.json').read())
+
+words = [""]
+classes = [""]
+documents = [""]
 ignore_letters = ["?", "!", ".", ",", ";", "'"]
 
 for intents in intents['intents']:
-    for pattern in intent['pattern']:
-        word_list = nltk.tokenize(pattern)
+    for pattern in intents['pattern']:
+        word_list = nltk.word_tokenize(pattern)
+        words.append(word_list)
+        documents.append((word_list , intents['tag']))
+        if intents['tag'] not in classes:
+            classes.append(intents['tag'])
+
+            print(documents)
