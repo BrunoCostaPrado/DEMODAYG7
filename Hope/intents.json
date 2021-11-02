@@ -25,7 +25,7 @@
       "tag": "Criador",
       "patterns": ["Quem te programou?", "Quem te criou?", "Que é seu pai?"],
       "responses": [
-        "Fui programado pela Equipe 7 do Instituo Proa, composto por Bruno Costa Prado, Naiara, Jefersson, Guilherme, Beatriz",
+        "Fui programado pela Equipe 7 do Instituo Proa, composto por Bruno Costa Prado, Naiara, Jefersson, Guilherme Oliveira, Beatriz",
         "Fui programado por Bruno Costa Prado, você pode conferir o repositorio dele aqui:https://github.com/BrunoCostaPrado?tab=repositories"
       ]
     },
