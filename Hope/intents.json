@@ -30,6 +30,14 @@
       ]
     },
 
+{
+      "tag": "Pai",
+      "patterns": ["Que é seu pai?"],
+      "responses": [
+        "Fui programado por Bruno Costa Prado, você pode conferir o repositorio dele aqui:https://github.com/BrunoCostaPrado?tab=repositories"
+      ]
+    },
+	
     {
       "tag": "Ajuda",
       "patterns": [
