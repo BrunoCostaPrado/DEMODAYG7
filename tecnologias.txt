@@ -8,4 +8,4 @@ Em pericia.
 4-Docker
 5-Node.Js
 6-BootStrap
-7-
+7-Python
