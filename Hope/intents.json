@@ -18,19 +18,19 @@
         "Qual seu nome?",
         "Como devo te chamar?"
       ],
-      "responses": ["Meu nome é Hope."]
+      "responses": ["Você pode me chamar de Hope."]
     },
 
     {
       "tag": "Criador",
-      "patterns": ["Quem te programou?", "Quem te criou?"],
+      "patterns": ["Quem te programou?"],
       "responses": [
         "Fui programado pela Equipe 7 do Instituo Proa, composto por Bruno Costa Prado, Guilherme Oliveira, Beatriz Francelino, Camila Correia, Naiara Santiago, Jeferson Fagundes"]
     },
 
 {
       "tag": "Pai",
-      "patterns": ["Que é seu pai?"],
+      "patterns": ["Quem é seu pai?","Quem te criou?"],
       "responses": [
         "Fui programado por Bruno Costa Prado, você pode conferir o repositorio dele aqui:https://github.com/BrunoCostaPrado?tab=repositories"
       ]
