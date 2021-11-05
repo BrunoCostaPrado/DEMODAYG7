@@ -1,0 +1,4 @@
+Conectar chatbot com html (em analise)
+Pesquisar Caracteres especiais no Python
+Implementar a API do Mercado Pago
+Implementar o banco de dados
