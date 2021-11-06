@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import random
 import json
 
@@ -25,7 +26,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Hope"
 
 def get_response(msg):
     sentence = tokenize(msg)

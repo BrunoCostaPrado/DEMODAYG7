@@ -2,8 +2,8 @@
   "intents": [
     {
       "tag": "Saudação",
-      "patterns": ["ola", "oi", "boa tarde", "bom dia", "boa noite"],
-      "responses": ["Ola!", "Oi!", "Boa tarde!", "Bom dia!", "Boa noite!"]
+      "patterns": ["ola", "oi", "boa tarde", "bom dia", "boa noite", "Ola","Oi","Boa tarde","Bom dia" ],
+      "responses": ["Ola!", "Oi!", "Bom dia!"]
     },
     {
       "tag": "Adeus",
