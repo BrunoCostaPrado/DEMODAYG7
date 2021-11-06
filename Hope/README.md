@@ -1,5 +1,3 @@
 dependencias usadas:
 
-pip install nltk
-pip install tensorflow
-pip install Flask torch torchvision nltk
+pip install Flask torch torchvision nltk tensorflow
