@@ -27,8 +27,7 @@ class Chatbox {
 
     toggleState(chatbox) {
         this.state = !this.state;
-
-        // show or hides the box
+        // esconde a caixa
         if(this.state) {
             chatbox.classList.add('chatbox--active')
         } else {
