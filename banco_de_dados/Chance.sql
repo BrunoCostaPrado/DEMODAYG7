@@ -1,7 +1,6 @@
 drop database chance;
 create database if not exists chance;
 use chance;
-
 CREATE TABLE CadastoAutonomo (
 Nome VARCHAR(80),
 Estado VARCHAR(30),
