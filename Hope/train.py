@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import numpy as np
 import random
 import json
@@ -18,14 +17,20 @@ tags = []
 xy = []
 for intent in intents['intents']:
     tag = intent['tag']
+
     tags.append(tag)
     for pattern in intent['patterns']:
+
         w = tokenize(pattern)
+
         all_words.extend(w)
+
         xy.append((w, tag))
+
 
 ignore_words = ['?', '.', '!']
 all_words = [stem(w) for w in all_words if w not in ignore_words]
+
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
@@ -33,16 +38,20 @@ print(len(xy), "patterns")
 print(len(tags), "tags:", tags)
 print(len(all_words), "unique stemmed words:", all_words)
 
+
 X_train = []
 y_train = []
 for (pattern_sentence, tag) in xy:
+
     bag = bag_of_words(pattern_sentence, all_words)
     X_train.append(bag)
+
     label = tags.index(tag)
     y_train.append(label)
 
 X_train = np.array(X_train)
 y_train = np.array(y_train)
+
 
 num_epochs = 1000
 batch_size = 8
@@ -77,8 +86,10 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
+
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
+
 
 for epoch in range(num_epochs):
     for (words, labels) in train_loader:
@@ -86,6 +97,7 @@ for epoch in range(num_epochs):
         labels = labels.to(dtype=torch.long).to(device)
 
         outputs = model(words)
+
         loss = criterion(outputs, labels)
 
         optimizer.zero_grad()

@@ -1,13 +1,11 @@
-from os import name
+from re import A
 from flask import Flask, render_template, request, jsonify
-from werkzeug.wrappers import response
-from Hope import get_response
 from flask_cors import CORS
-app=Flask(__name__)
+from Hope import get_response
+app= Flask(__name__)
 CORS(app)
 @app.get("/")
-def index_get():
-    return render_template("base.html")
+
 
 @app.post("/predict")
 def predict():
