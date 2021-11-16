@@ -35,7 +35,7 @@
       "patterns": [
         "Poderia me dizer seu nome?",
         "Qual seu nome?",
-        "Como devo te chamar?"
+        "Como devo te chamar?","Quem é você"
       ],
       "responses": ["Você pode me chamar de Hope."]
     },
