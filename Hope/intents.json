@@ -23,21 +23,26 @@
     {
       "tag": "Osasco",
       "patterns": ["Osasco", "osasco"],
-      "responses": ["Toma cuidado com Osasco","Cuidado com Osasco"]
+      "responses": ["Toma cuidado com Osasco", "Cuidado com Osasco"]
     },
     {
       "tag": "Jaison",
       "patterns": ["Professor Jaison"],
-      "responses": ["O professor Jaison foi o professor responsavel por ensinar nossa equipe a ferramentas:HTML5, CSS3, JavaScript, MySQL e Java"]
+      "responses": [
+        "O professor Jaison foi o professor responsavel por ensinar nossa equipe a ferramentas:HTML5, CSS3, JavaScript, MySQL e Java"
+      ]
     },
     {
       "tag": "Nome",
       "patterns": [
         "Poderia me dizer seu nome?",
         "Qual seu nome?",
-        "Como devo te chamar?","Quem é você"
+        "Como devo te chamar?",
+        "Quem é você"
       ],
-      "responses": ["Eu me chamo Hope, fui criada com o intuito de tirar suas duvidas sobre o site."]
+      "responses": [
+        "Eu me chamo Hope, fui criada com o intuito de tirar suas duvidas sobre o site."
+      ]
     },
 
     {
@@ -73,7 +78,7 @@
         "Onde fica armazenado seu codigo?",
         "Onde fica seu codigo?"
       ],
-      "responses": ["Mas é claro: https://github.com/BrunoCostaPrado/Hope"]
+      "responses": ["Meu codigo esta aqui:github.com/BrunoCostaPrado/Hope"]
     }
   ]
 }
