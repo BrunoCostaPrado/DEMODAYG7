@@ -42,25 +42,27 @@ body {
     background: #696969;
 }
 .cancelbtn, .signupbtn {
+  margin-right: 4px;
   float: right;
   width: 17%;
   border: none;
   color: #ffffff;
-  border-radius: 10px;
+  border-radius: 13px;
   box-shadow: 0 2px #999;
 }
+
 .cancelbtn {
   background-color: #808080;
   padding: 15px 5px;
   cursor: pointer;
+  position: static;
 }
 .signupbtn{
   background-color: #4798d3;
   padding: 15px 5px;
-  cursor: not-allowed;
+  opacity: 0.6;
+  cursor: pointer;
 }
-.signupbtn:hover {background-color: #2565ae}
-
 .cancelbtn:hover {background-color: #696969}
 
-
+.signupbtn:after{background-color: #4798d3;}
